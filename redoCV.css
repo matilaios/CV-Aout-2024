@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    gap: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    align-items: stretch;
+    background-color: lightpink;
+}
+
+
+
+#left-part{
+    display: flex;
+    flex-direction: column;
+    background-color:cyan;
+    align-items: center;
+    width: 25%;
+    gap: 1vh;
+}
+
+.photoprofil{
+    img{
+        width: 10vw;
+        border-radius: 100%;
+        margin-top: 2vh; 
+        margin-bottom: 0;
+        padding-bottom: 0;
+    
+    }
+}
+
+.photoprofil{
+    display: flex;
+    justify-content: center;
+}
+.identite{
+    margin-top: 1vh;
+    padding-top: 1vh;
+}
+
+
+
+
+
+
+
+#right-part{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    width: 75%;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.informations{
+    img{
+        width: 2vw;
+    }
+}
+
+.informations{
+    display: flex;
+    justify-content: center;
+}
+
+.info-datenaissance, .datenaissance{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.permis, .B{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0;
+}
+
+.langues{
+
+    img{
+        width: 2vw;
+        background: cyan;
+    }
+}
+
+.langues, .niveau{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+
+}
